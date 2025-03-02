@@ -1,0 +1,34 @@
+.root {
+    composes: fixed top-0 l-0 from global;
+    composes: flex items-center gap-[10px] from global;
+    composes: h-[53px] w-full px-[20px] from global;
+    composes: z-20 from global;
+
+    box-shadow: 0 4px 4px 0 #000000B2;
+    background: linear-gradient(0deg, #4E0D0B 0%, #90342C 100%);
+}
+
+.avatar {
+    composes: w-[45px] h-[45px] from global;
+}
+
+.avatar img {
+    @apply w-full h-full;
+}
+
+.amounts {
+    composes: h-[25px] from global;
+    composes: grid grid-cols-3 item-center gap-[14px] from global;
+    composes: flex-grow from global;
+    composes: text-[16px] from global;
+}
+
+.amount {
+    composes: pr-[10px] from global;
+    composes: bg-[#6D2323] from global;
+    composes: flex items-center justify-end from global;
+    composes: text-white font-bold from global;
+    composes: rounded-[9px] from global;
+
+    box-shadow: 0 4px 4px 0 #00000066 inset;
+}

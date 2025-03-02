@@ -1,3 +1,5 @@
+"use client";
+
 import classes from './farmGrid.module.css';
 
 const FarmGrid = () => {

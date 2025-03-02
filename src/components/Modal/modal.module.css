@@ -1,0 +1,23 @@
+.root {
+    composes: h-full from global;
+    composes: flex flex-col from global;
+}
+
+.header {
+    composes: flex justify-center items-center from global;
+    composes: h-[53px] from global;
+    background: linear-gradient(0deg, #4E0D0B 0%, #90342C 100%);
+    box-shadow: 0 4px 4px 0 #000000B2;
+}
+
+.title {
+    composes: text-white text-[24px] font-bold from global;
+
+    text-shadow: 0 2px 0 #000000;
+}
+
+.content {
+    composes: flex-grow from global;
+    composes: pt-[32px] px-[12px] from global;
+    composes: bg-[#893028] border-t-0 rounded-b-[8px] border-[8px] border-[#6D2323] from global;
+}
