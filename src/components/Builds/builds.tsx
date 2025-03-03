@@ -1,7 +1,12 @@
 import classes from "./builds.module.css";
 
+interface Build {
+  type?: string;
+  // Add other properties as needed
+}
+
 const Builds = () => {
-  const data = [
+  const data: Build[] = [
     {},
     {},
     {},
