@@ -14,6 +14,7 @@ const Builds = () => {
     {},
     {},
     {},
+    {},
   ]
 
 
@@ -22,7 +23,7 @@ const Builds = () => {
       {data.map((item, index) => (
         <div className={classes.build} key={`Build index ${index}`}>
           {!item?.type ?
-            <img src="./UI/build.png" alt="buid" className="w-[6vw] transform -translate-y-1/2"/>
+            <img src="./UI/build.png" alt="buid" className="w-[6vw] max-w-[20px] transform -translate-y-1/2"/>
             : null}
         </div>
       ))}

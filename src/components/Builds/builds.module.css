@@ -1,7 +1,7 @@
 .root {
     width: 100%;
     position: absolute;
-    top: 34vw;
+    top: min(34vw, 170px);
     left: 0;
     display: flex;
     align-items: center;
@@ -12,6 +12,7 @@
 .build {
     width: 25%;
     height: 17vw;
+    max-height: 85px;
     transform: translateX(-50%);
 
     display: flex;

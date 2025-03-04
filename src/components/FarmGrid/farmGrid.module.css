@@ -1,5 +1,5 @@
 .wrap {
-  width: 100vw;
+  width: 100%;
   overflow: hidden;
 }
 
@@ -8,6 +8,7 @@
   composes: flex flex-wrap items-end from global;
   background: #68C50C;
   width: 133vw;
+  max-width: 665px;
   margin-left: 50%;
   transform: translateX(-50%);
 }
@@ -20,7 +21,7 @@
 }
 
 .item {
-  composes: w-[25%] h-[17vw] from global;
+  composes: w-[25%] h-[17vw] max-h-[85px] from global;
   position: relative;
   display: flex;
   justify-content: center;

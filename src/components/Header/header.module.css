@@ -1,5 +1,5 @@
 .root {
-    composes: fixed top-0 l-0 from global;
+    composes: sticky top-0 l-0 from global;
     composes: flex items-center gap-[10px] from global;
     composes: h-[53px] w-full px-[20px] from global;
     composes: z-20 from global;
